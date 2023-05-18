@@ -9,7 +9,7 @@ from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
-from recommand import get_rec
+from recommand import get_rec 
 
 # show all columns
 pd.set_option('display.max_columns', None)
