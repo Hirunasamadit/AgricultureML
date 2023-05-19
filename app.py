@@ -32,7 +32,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 client = motor.motor_asyncio.AsyncIOMotorClient(os.environ["MONGODB_URL"])
-db = client.agriculture_test
+db = client.agriculture
 
 data_length = 100000
 
